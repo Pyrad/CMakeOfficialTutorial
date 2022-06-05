@@ -8,6 +8,9 @@ PROJECT(Tutorial VERSION 1.0)
 SET(CMAKE_CXX_STANDARD 11)
 SET(CMAKE_CXX_STANDARD_REQUIRED True)
 
+MESSAGE(STATUS "[PYRAD] This is the BINARY directory: " ${Tutorial_BINARY_DIR})
+MESSAGE(STATUS "[PYRAD] This is the SOURCE directory: " ${Tutorial_SOURCE_DIR})
+
 # Add the executable
 ADD_EXECUTABLE(Tutorial tutorial.cxx)
 
