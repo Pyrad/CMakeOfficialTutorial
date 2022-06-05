@@ -1,3 +1,4 @@
+# Set the minimun version of CMake
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
 # Set the project name
