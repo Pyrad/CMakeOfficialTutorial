@@ -1,2 +1,5 @@
 ### Ignore vscode related files
 Step*/.vscode
+
+### Ignore temporary build directories for each source folder
+Step*_build
