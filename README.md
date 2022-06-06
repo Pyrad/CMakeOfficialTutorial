@@ -4,6 +4,14 @@
 This is a note file for the [CMake official tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
 
 
+
+#### The Note File
+
+This repo has a related note file I wrote, link is here from ReadTheDocs: [CMake Tutorial Notes](<https://pyrads-notes.readthedocs.io/en/latest/Notes/CMakeTutorialNotes.html>)
+
+
+
+
 #### Gitee Feature
 
 1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
