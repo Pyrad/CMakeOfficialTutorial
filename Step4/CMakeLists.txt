@@ -7,6 +7,10 @@ project(Tutorial VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+# Set install path
+set(MY_INSTALL_DIR "MyInstallPath")
+set(CMAKE_INSTALL_PREFIX "${PROJECT_BINARY_DIR}/${MY_INSTALL_DIR}")
+
 # should we use our own math functions
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
 
