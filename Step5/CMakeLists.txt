@@ -29,6 +29,9 @@ target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 target_include_directories(Tutorial PUBLIC
                            "${PROJECT_BINARY_DIR}"
                            )
+# Set install path
+set(MY_INSTALL_DIR "MyInstallPath")
+set(CMAKE_INSTALL_PREFIX "${PROJECT_BINARY_DIR}/${MY_INSTALL_DIR}")
 
 # add the install targets
 install(TARGETS Tutorial DESTINATION bin)
