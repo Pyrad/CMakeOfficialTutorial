@@ -1,1 +1,19 @@
-double mysqrt(double x);
+#if defined(_WIN32)
+#  if defined(EXPORTING_MYMATH)
+#    define DECLSPEC __declspec(dllexport)
+#  else
+#    define DECLSPEC __declspec(dllimport)
+#  endif
+#else // non windows
+#  define DECLSPEC
+#endif
+
+namespace mathfunctions {
+
+namespace detail {
+
+	double DECLSPEC mysqrt(double x);
+
+} // namespace detail
+
+} // namespace mathfunctions
