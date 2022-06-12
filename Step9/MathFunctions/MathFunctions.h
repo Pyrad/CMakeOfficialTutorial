@@ -10,10 +10,6 @@
 
 namespace mathfunctions {
 
-namespace detail {
-
-	double DECLSPEC mysqrt(double x);
-
-} // namespace detail
+double DECLSPEC sqrt(double x);
 
 } // namespace mathfunctions

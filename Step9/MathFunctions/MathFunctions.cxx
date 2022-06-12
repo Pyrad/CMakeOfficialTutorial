@@ -15,5 +15,5 @@ double sqrt(double x)
 #else
   return std::sqrt(x);
 #endif
-}
-}
+} // function sqrt
+} // namespace mathfunctions 

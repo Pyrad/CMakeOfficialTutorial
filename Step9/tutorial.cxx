@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
   const double inputValue = std::stod(argv[1]);
 
   // which square root function should we use?
-  const double outputValue = mathfunctions::detail::mysqrt(inputValue);
+  const double outputValue = mathfunctions::sqrt(inputValue);
 
 
   std::cout << "The square root of " << inputValue << " is " << outputValue
